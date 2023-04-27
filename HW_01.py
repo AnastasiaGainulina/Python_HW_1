@@ -32,7 +32,7 @@ def heapSort(arr):
         arr[i], arr[0] = arr[0], arr[i] 
         heapify(arr, i, 0)
 
-# Управляющий код для тестирования
+# код для тестирования
 arr = [ 12, 11, 13, 5, 6, 7]
 heapSort(arr)
 n = len(arr)
